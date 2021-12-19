@@ -18,6 +18,11 @@
     <link href="./favicon examples_files/bootstrap.min.css" rel="stylesheet" type="text/css">
 
     <h1 align='center'><span class="blue color" style="color: dodgerblue;"><span style="background-color: darkgray;">Welcome to Marv code's tutorials</span></span></h1>
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "That means you are ready to learn.";
+        }
+    </script>
 </head>
 <body css style="background-color: darkgray;">
     <style>
@@ -86,9 +91,9 @@
     <body>
         <p><h3 style="color: purple;">So here are some questions to evaluate yourself.</p>
         <p>If you tick all the boxes to these questions then you are ready to go.</p>
-        <p><input type="checkbox">Do you have problems solving skills?</p>
-        <p><input type="checkbox">Do you have an interest in this field?</p>
-        <p><input type="submit"></p>
+        <p id="demo"><input type="checkbox">Do you have problems solving skills?</p>
+        <p id="demo"><input type="checkbox">Do you have an interest in this field?</p>
+        <button type="button" onclick="myFunction()">Submit</button>
         <p>I would appreciate your comments.</p>
         <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
         <a href="mailto:patavon52@gmail.com"><input type="submit"></p></a>
