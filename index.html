@@ -106,14 +106,8 @@
         <p><h3 style="color: purple;">So here are some questions to evaluate yourself.</p>
         <p><input type="checkbox">Do you have problems solving skills?</p>
         <p><input type="checkbox">Do you have an interest in this field?</p>
-        <p>If you tick all the boxes to these questions...</p>
-        <p><button type="button" onclick="myFunction()">Submit</button></p>
-        <p id="demo"></p>
-        <script>
-        function myFunction() {
-          document.getElementById("demo1").innerHTML = "That means you are ready to learn. So let us begin.";
-            }
-        </script>
+        <p id="demo">If you tick all the boxes to these questions...</p>
+        <p><button type="button" onclick="document.getElementById('demo').innerHTML = 'That means you are ready to learn. So let us begin.'">Submit</button></p>
         <p>But first I would appreciate your comments.</p>
         <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
         <a href="mailto:patavon52@gmail.com"><input type="submit"></p></a>
