@@ -108,8 +108,10 @@
         <p><input type="checkbox">Do you have an interest in this field?</p>
         <p>If you tick all the boxes to these questions...</p>
         <p id="demo"></p>
-        <p><button type="button" function myFunction() {
-          document.getElementById("demo").innerHTML = 'That means you are ready to learn. So let us begin.'">Submit</button></p>
+        <script>
+        function myFunction() {
+          document.getElementById("demo1").innerHTML = "That means you are ready to learn. So let us begin.";
+        <p><button type="button" onclick="myFunction()">Submit</button></p>
         <p>But first I would appreciate your comments.</p>
         <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
         <a href="mailto:patavon52@gmail.com"><input type="submit"></p></a>
